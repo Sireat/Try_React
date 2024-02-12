@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Style the button with the class name "square" */
+.square {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #92e495; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some border radius for rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover state for the button with the class name "square" */
+.square:hover {
+  background-color: #0ee619; /* Darker green on hover */
+}
