@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Apply general styling to the entire page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+/* Style the search form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Style the input field */
+input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Style the checkbox and its label */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the table rows */
+tbody tr {
+  border-bottom: 1px solid #ddd; /* Add a border between rows */
+}
+
+/* Style the product name */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Style the out-of-stock product name */
+td span {
+  color: red;
+}
